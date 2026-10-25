@@ -35,7 +35,7 @@ main {
 .site-header {
     position: relative;
     z-index: 10;
-    min-height: 60px;
+    min-height: 45px;
     padding: 9px 16px;
 
     background: #8ED8FF;
