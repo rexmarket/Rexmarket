@@ -35,8 +35,8 @@ main {
 .site-header {
     position: relative;
     z-index: 10;
-    min-height: 76px;
-    padding: 16px 20px;
+    min-height: 60px;
+    padding: 9px 16px;
 
     background: #8ED8FF;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.28);
