@@ -16,8 +16,8 @@ body {
 }
 
 .logo {
-    height: 40px;
-    width: auto;
+    height: 140px;
+    width: 70px;
     object-fit: contain;
 }
 
