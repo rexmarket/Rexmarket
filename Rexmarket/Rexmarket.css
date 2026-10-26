@@ -37,8 +37,8 @@ body {
 }
 
 .rexmarket-text {
-    width: 150px;
-    height: 40px;
+    width: 360px;
+    height: 90px;
     object-fit: contain;
     margin-left: 8px;
     mix-blend-mode: screen;
