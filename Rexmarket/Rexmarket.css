@@ -37,9 +37,8 @@ body {
 }
 
 .rexmarket-text {
-    font-family: 'Fredoka', sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    color: #000000;
-    letter-spacing: -1,5px;
+    width: 150px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 8px;
 }
