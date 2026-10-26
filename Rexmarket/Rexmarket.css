@@ -35,3 +35,11 @@ body {
     height: 140%;
     object-fit: contain;
 }
+
+.rexmarket-text {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: -1px;
+}
