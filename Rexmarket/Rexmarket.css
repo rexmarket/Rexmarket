@@ -9,10 +9,11 @@ body {
     height: 60px;
     background: #64B5F6;
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
-
     display: flex;
     align-items: center;
     padding-left: 10px;
+    box-sizing: border-box;
+    gap: 8px;
 }
 
 
@@ -37,8 +38,8 @@ body {
 }
 
 .rexmarket-text {
-    width: 150px;
-    height: 40px;
+    width: 550px;
+    height: 150px;
     object-fit: contain;
     margin-left: 8px;
     mix-blend-mode: screen;
