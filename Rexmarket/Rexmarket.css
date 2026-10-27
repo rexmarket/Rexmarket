@@ -102,9 +102,11 @@ body {
 }
 
 
+
 .floating-nav {
-    position: fixed;
-    bottom: 18px;
+    position: fixed !important;
+    bottom: 18px !important;
+    top: auto !important;
     left: 5%;
     width: 90%;
     height: 76px;
@@ -113,42 +115,48 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 4px;
+    justify-content: space-around;
 
     background: #ffffff;
     border-radius: 50px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22);
-    z-index: 999;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    z-index: 99999;
 }
 
 .nav-item {
     flex: 1;
+    height: 100%;
     min-width: 0;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
 
-    color: #777777;
+    color: #8B0000;
     text-decoration: none;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav-item svg {
-    width: 23px;
-    height: 23px;
+    width: 24px;
+    height: 24px;
+    display: block;
     fill: none;
-    stroke: currentColor;
-    stroke-width: 1.8;
+    stroke: #8B0000;
+    stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 
 .nav-item.active {
-    color: #192F82;
+    color: #B5121B;
+}
+
+.nav-item.active svg {
+    stroke: #B5121B;
 }
 
 .nav-space {
