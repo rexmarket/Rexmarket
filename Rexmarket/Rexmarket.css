@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+    position: relative;
     width: 100%;
     height: 60px;
     background: #64B5F6;
@@ -35,9 +36,21 @@ body {
 }
 
 .logo {
-    width: 140%;
-    height: 140%;
+    position: absolute;
+
+    /* KOORDINAT LOGO */
+    left: 10px;
+    top: 7px;
+
+    /* UKURAN LOGO */
+    width: 46px;
+    height: 46px;
+
     object-fit: contain;
+    display: block;
+
+    /* SHADOW */
+    filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, 0.7));
 }
 
 .rexmarket-text {
@@ -55,5 +68,6 @@ body {
     display: block;
 
     /* SHADOW */
+    mix-blend-mode: screen;
     filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, 0.8));
 }
