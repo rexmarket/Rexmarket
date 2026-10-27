@@ -20,12 +20,14 @@ body {
     object-fit: contain;
     filter: brightness(0) invert(1);
     margin-right: auto;
+    transform: translateY(2px);
 }
 
 .search-box {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 45%;
     max-width: 300px;
     min-width: 100px;
