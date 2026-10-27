@@ -263,3 +263,28 @@ body {
 .floating-nav .nav-item:nth-of-type(3) {
     margin-left: 18px;
 }
+
+/* HILANGKAN EFEK BIRU SAAT DIKLIK */
+* {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Hilangkan outline biru */
+button:focus,
+a:focus {
+    outline: none !important;
+}
+
+/* Hilangkan efek biru saat tombol ditekan */
+button:active,
+a:active {
+    -webkit-tap-highlight-color: transparent !important;
+}
