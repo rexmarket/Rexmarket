@@ -59,8 +59,8 @@ body {
     top: 10px;    /* Geser ke bawah/atas */
 
     /* ATUR UKURAN GAMBAR */
-    width: 750px;
-    height: 220px;
+    width: 550px;
+    height: 150px;
 
     object-fit: contain;
     display: block;
