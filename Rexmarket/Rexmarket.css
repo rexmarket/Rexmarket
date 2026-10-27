@@ -166,31 +166,40 @@ body {
 
 
 .nav-center {
-    position: absolute;
-    left: 50%;
-    top: -38px;
-    transform: translateX(-50%);
+    position: absolute !important;
+    left: 50% !important;
+    top: -38px !important;
+    transform: translateX(-50%) !important;
 
-    width: 76px;
-    height: 76px;
-    border: none;
-    border-radius: 50%;
-    background: #8B0000;
+    width: 76px !important;
+    height: 76px !important;
+    min-width: 76px;
+    min-height: 76px;
 
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    aspect-ratio: 1 / 1;
+
+    background: #8B0000 !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 
-    box-shadow: none;
+    flex: none !important;
     cursor: pointer;
-    z-index: 2;
+    z-index: 10;
 }
 
 .nav-center svg {
     width: 54px;
     height: 54px;
     display: block;
-}
+    flex: none;
+        }
+
+
 
 .nav-item {
     font-family: Arial, Helvetica, sans-serif;
@@ -199,3 +208,43 @@ body {
     letter-spacing: 0.1px;
     }
 
+/* FIX TOMBOL TENGAH AGAR BULAT */
+.floating-nav .nav-center {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+
+    position: absolute !important;
+    left: 50% !important;
+    top: -30px !important;
+    transform: translateX(-50%) !important;
+
+    width: 68px !important;
+    min-width: 68px !important;
+    max-width: 68px !important;
+
+    height: 68px !important;
+    min-height: 68px !important;
+    max-height: 68px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 50% !important;
+
+    background: #8B0000 !important;
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 68px !important;
+
+    aspect-ratio: 1 / 1 !important;
+    overflow: hidden;
+}
+
+.floating-nav .nav-center svg {
+    width: 48px !important;
+    height: 48px !important;
+    flex: none !important;
+}
