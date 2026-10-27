@@ -35,16 +35,25 @@ body {
 }
 
 .logo {
-    width: 120%;
-    height: 120%;
+    width: 140%;
+    height: 140%;
     object-fit: contain;
 }
 
 .rexmarket-text {
-    width: 700px;
-    height: 220px;
+    position: absolute;
+
+    /* ATUR POSISI GAMBAR */
+    left: 64px;   /* Geser ke kanan/kiri */
+    top: 10px;    /* Geser ke bawah/atas */
+
+    /* ATUR UKURAN GAMBAR */
+    width: 150px;
+    height: 40px;
+
     object-fit: contain;
-    margin-left: 8px;
-    mix-blend-mode: screen;
+    display: block;
+
+    /* SHADOW */
     filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, 0.8));
 }
