@@ -22,7 +22,7 @@ body {
     height: 38px;
     min-width: 38px;
     min-height: 38px;
-    flex: 0 0 46px;
+    flex: 0 0 38px;
     border: 2px solid #000000;
     border-radius: 10px;
     background: #FFFFFF;
@@ -41,8 +41,8 @@ body {
 }
 
 .rexmarket-text {
-    width: 550px;
-    height: 150px;
+    width: 700px;
+    height: 220px;
     object-fit: contain;
     margin-left: 8px;
     mix-blend-mode: screen;
