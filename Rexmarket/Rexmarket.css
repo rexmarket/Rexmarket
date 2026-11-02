@@ -294,6 +294,7 @@ a:active {
    REXMARKET BANNER SLIDER
 ================================= */
 
+
 .banner-section {
     width: 100%;
     padding: 16px 0 10px;
@@ -302,10 +303,10 @@ a:active {
 }
 
 .banner-slider {
-    width: 92%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     overflow: hidden;
-    border-radius: 14px;
+    border-radius: 0;
     touch-action: pan-y;
 }
 
@@ -321,6 +322,7 @@ a:active {
     width: 100%;
     aspect-ratio: 16 / 6;
     overflow: hidden;
+    border-radius: 0;
 }
 
 .banner-slide img {
@@ -328,6 +330,7 @@ a:active {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0;
 }
 
 /* TITIK INDIKATOR */
@@ -356,4 +359,3 @@ a:active {
     border-radius: 10px;
     background: #8B0000;
 }
-
