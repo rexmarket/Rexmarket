@@ -294,12 +294,17 @@ a:active {
    REXMARKET BANNER SLIDER
 ================================= */
 
+
 .banner-slider {
     width: 100%;
     margin: 0;
     overflow: hidden;
     border-radius: 0;
+    touch-action: pan-y;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
 }
+
 
 .banner-track {
     display: flex;
