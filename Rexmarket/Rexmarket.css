@@ -347,3 +347,57 @@ a:active {
 }
 
 
+/* CATEGORY MENU */
+
+.category-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 8px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    gap: 5px;
+}
+
+.category-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.category-icon {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5E9E9;
+    border-radius: 13px;
+}
+
+.category-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #8B0000;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.category-item span {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    color: #8B0000;
+    background: #F5E9E9;
+    padding: 4px 9px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
